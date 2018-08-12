@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.rahul.telly.FragmentTvShows">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/carouseltvshowfrag"
+            app:slideInterval="3000"
+            app:radius="5dp"></com.synnapps.carouselview.CarouselView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comedy Shows"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:id="@+id/tv1"
+            android:textSize="20sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dynamiclinearlayoutcomedyshows"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

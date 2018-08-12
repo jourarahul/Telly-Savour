@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/menuhome"/>
+    <item android:title="Movies"
+        android:id="@+id/movies"/>
+    <item android:title="TV Shows"
+        android:id="@+id/tvshows"/>
+    <item android:title="Upgrade Your Account"
+        android:id="@+id/upgrade"/>
+    <item android:title="Change Password"
+        android:id="@+id/changepassword"/>
+    <item android:title="My Favourites"
+        android:id="@+id/myFavour"/>
+
+</menu>

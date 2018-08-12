@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rahul.telly.Frag1"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="Sign In"
+        android:textSize="24sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:id="@+id/et1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/et2"
+        />
+
+
+    <Button
+        android:id="@+id/bt2"
+        android:text="Login"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+    />
+    <Button
+        android:id="@+id/bt1"
+        android:text="FORGET PASSWORD?"
+        android:textColor="#0000ff"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/bt3"
+        android:layout_marginTop="40dp"
+        android:text="Not A Member?Sign Up"
+        android:background="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
